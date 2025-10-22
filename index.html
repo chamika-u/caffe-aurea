@@ -3,20 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>Caffé Aurea</title>
+
+        <!-- Linking Font Awesome CSS for icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <!-- Linking Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <!--Linking Main stylsheet file-->
         <link rel="stylesheet" href="style.css">
 
     </head>
     <body>
         <header>
+            <!--navbar Section-->
             <nav class="navbar section-content">
                 <a href="#" class="nav-logo">
                 <h1 class="logo-text">Caffé Aurea</h1>
                 </a>
-
+                <!--nav menu items starts from here-->
                 <ul class="nav-menu">
+                    <!--navbar mobile closing button-->
                     <button type="button" id="menu-close-button" class="fas fa-times" aria-label="Close menu"></button>
+                    <!--nav items-->
                     <li><a href="#home" class="nav-link">Home</a></li>
                     <li><a href="#about" class="nav-link">About Us</a></li>
                     <li><a href="#menu" class="nav-link">Menu</a></li>
@@ -24,6 +33,8 @@
                     <li><a href="#gallery" class="nav-link">Gallery</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
+                
+                <!--navbar mobile opening button-->
                 <button type="button" id="menu-open-button" class="fas fa-bars" aria-label="Open menu"></button>
             </nav>
         </header>
@@ -77,23 +88,23 @@
                 <h2 class="section-title">Our Menu</h2>
                 <div class="section-content">
                     <ul class="menu-list">
-                     <li class="menu-item">
+                    <li class="menu-item">
                         <img src="images/hot-beverages.png" class="menu-item-image" alt="Hot Beverages">
                         <h3 class="name">Hot Beverages</h3>
                         <p class="text">A selection of our finest hot beverages, crafted to perfection.</p>
-                     </li>
+                    </li>
 
                      <li class="menu-item">
                         <img src="images/cold-beverages.png" class="menu-item-image" alt="Cold Beverages">
                         <h3 class="name">Cold Beverages</h3>
                         <p class="text">A selection of our finest cold beverages, crafted to perfection.</p>
-                     </li>
+                    </li>
 
-                     <li class="menu-item">
+                    <li class="menu-item">
                         <img src="images/refreshment.png" class="menu-item-image" alt="Refreshments">
                         <h3 class="name">Refreshments</h3>
                         <p class="text">A selection of our finest refreshments, crafted to perfection.</p>
-                     </li>
+                    </li>
 
                      <li class="menu-item">  
                         <img src="images/special-combo.png" class="menu-item-image" alt="Special Combo">
@@ -116,8 +127,66 @@
                 
                 </div>
             </section>
+
+            <!-- Testimonials Section-->
+            <section class="testimonials-section">
+                <h2 class="section-title">Testimonials</h2>
+                <div class="section-content">
+                    <div class="slider-container swiper">
+                        <div class="slider-wrapper">
+                            <ul class="testimonials-list swiper-wrapper">
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/user-1.jpg" alt="User 1" class="user-image">
+                                    <h3 class="name">Sarah Johnson</h3>
+                                    <i class="feedback">
+                                        "Loved this French Roast. Perfectly Balanced and Rich. Will order again!" 
+                                    </i>
+                                </li>
+
+                                 <li class="testimonial swiper-slide">
+                                    <img src="images/user-2.jpg" alt="User 2" class="user-image">
+                                    <h3 class="name">Sarah Johnson</h3>
+                                    <i class="feedback">
+                                        "Loved this French Roast. Perfectly Balanced and Rich. Will order again!" 
+                                    </i>
+                                </li>
+
+                                 <li class="testimonial swiper-slide">
+                                    <img src="images/user-3.jpg" alt="User 3" class="user-image">
+                                    <h3 class="name">Sarah Johnson</h3>
+                                    <i class="feedback">
+                                        "Loved this French Roast. Perfectly Balanced and Rich. Will order again!" 
+                                    </i>
+                                </li>
+
+                                 <li class="testimonial swiper-slide">
+                                    <img src="images/user-4.jpg" alt="User 4" class="user-image">
+                                    <h3 class="name">Sarah Johnson</h3>
+                                    <i class="feedback">
+                                        "Loved this French Roast. Perfectly Balanced and Rich. Will order again!" 
+                                    </i>
+                                </li>
+
+                                 <li class="testimonial swiper-slide">
+                                    <img src="images/user-5.jpg" alt="User 5" class="user-image">
+                                    <h3 class="name">Sarah Johnson</h3>
+                                    <i class="feedback">
+                                        "Loved this French Roast. Perfectly Balanced and Rich. Will order again!" 
+                                    </i>
+                                </li>
+                            </ul>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
+        <!-- Linking Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!--Linking Main js script file-->
         <script src="script.js"></script>
     </body>
 </html>
