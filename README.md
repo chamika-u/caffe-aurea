@@ -52,7 +52,7 @@ A modern, responsive website for **Caffé Aurea**, a coffee shop offering premiu
 
 ### 👋 Made with ❤️ by **chamika-u**
 
-> Special thanks to [**Coding Nepal**](https://www.youtubeial that inspired this project!  
+> Special thanks to [**Coding Nepal**](https://www.youtube.com/watch?v=MYFgtnKMDp4&t=2467s) that inspired this project!  
 > If you enjoyed this project, ⭐ star the repo and share your feedback!  
 > Let’s brew more ideas together ☕
 
