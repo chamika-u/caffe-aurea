@@ -25,6 +25,29 @@ A modern, responsive website for **Caffé Aurea**, a coffee shop offering premiu
 
 ---
 
+## 📸 Screenshots
+
+### Home 
+![Home](screenshots/1.png)
+
+### About 
+![About](screenshots/2.png)
+
+### Menu 
+![Menu](screenshots/6.png)
+
+### Testimonials
+![Testimonials](screenshots/3.png)
+
+### Gallery 
+![Gallery](screenshots/4.png)
+
+### Contact Us 
+![Contacts](screenshots/5.png)
+
+---
+
+
 ## 🛠 Tech Stack
 
 - **HTML5** — Semantic structure
@@ -57,6 +80,7 @@ A modern, responsive website for **Caffé Aurea**, a coffee shop offering premiu
 > Let’s brew more ideas together ☕
 
 ---
+
 
 
 
