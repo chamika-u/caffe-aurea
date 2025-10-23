@@ -49,9 +49,12 @@ A modern, responsive website for **Caffé Aurea**, a coffee shop offering premiu
     Optional: Use Live Server in VS Code or npx serve for local development.
 
 
+
 ### 👋 Made with ❤️ by **chamika-u**
 
+> Special thanks to [**Coding Nepal**](https://www.youtubeial that inspired this project!  
 > If you enjoyed this project, ⭐ star the repo and share your feedback!  
 > Let’s brew more ideas together ☕
+
 
 
